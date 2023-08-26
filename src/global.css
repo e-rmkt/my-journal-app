@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap");
+
 :root {
   /* Used for texts (+ footer background) */
   --color-granite: #252629;
@@ -11,4 +13,6 @@
   --color-nemo-dark: #e5430f;
   /* Used for borders and some backgrounds */
   --color-water-10: #e4e8f0;
+  /* FONTS */
+  --font: "Open Sans", sans-serif;
 }
