@@ -1,4 +1,5 @@
 import "./EntryForm.css";
+import Button from "../Button/Button";
 
 export default function EntryForm() {
   return (
@@ -17,9 +18,7 @@ export default function EntryForm() {
           className="form__input__field"
         ></textarea>
       </label>
-      <button type="submit" className="form__button">
-        Create
-      </button>
+      <Button type="submit">Create</Button>
     </form>
   );
 }
