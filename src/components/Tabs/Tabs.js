@@ -1,12 +1,17 @@
+import "./Tabs.css";
+import Badge from "../Badge/Badge";
+
 export default function Tabs() {
   return (
     <>
-      <button>
-        All Entries<div>4</div>
+      <button className="tab tab--active">
+        All Entries
+        <Badge />
       </button>
 
-      <button>
-        Favorites<div>2</div>
+      <button className="tab">
+        Favorites
+        <Badge />
       </button>
     </>
   );

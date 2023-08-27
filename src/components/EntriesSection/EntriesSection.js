@@ -4,9 +4,11 @@ import EntryList from "../EntryList/EntryList";
 
 export default function EntriesSection() {
   return (
-    <>
+    <section className="entries-section">
       <TabBar />
-      <EntryList />
-    </>
+      <div className="entries-section__entries">
+        <EntryList />
+      </div>
+    </section>
   );
 }
